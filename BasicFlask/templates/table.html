@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <body>
+    <h1> Marks</h1>
+    <table border=2>
+        {% for key, value in mydict.items() %}
+        <tr>
+            <th>{{key}}</th>
+            <td>{{value}}</th>
+        </tr>
+        {% endfor %}
+    </table>
+    </body>
+</html>
